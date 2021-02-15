@@ -1,3 +1,3 @@
 # Arduino-9es-csoport
-Miliás Bálint
+Miliás Bálint,
 Martin Dávid
