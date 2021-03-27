@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO.Ports;
+using WindowsInput;
+using WindowsInput.Native;
+
+namespace tezstarduino
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            InputSimulator sim = new InputSimulator();
+            SerialPort myport = new SerialPort();
+            myport.BaudRate = 115200;
+            myport.PortName = "COM3";
+            myport.Open();
+
+            do
+            {
+                string a = myport.ReadExisting();
+
+                if (a != "")
+                {
+                    Console.WriteLine(a);
+                }
+                if (a == "62\r\n")
+                {
+                    sim.Keyboard.KeyPress(VirtualKeyCode.RIGHT);
+                    Console.ReadLine();
+
+                }
+
+            } while (true);
+
+           /* while(true) { string data_rx = myport.ReadLine();
+                Console.WriteLine(data_rx);
+
+            
+            }*/
+
+            
+        }
+    }
+}
