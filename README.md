@@ -7,3 +7,5 @@ Martin Dávid
 ## Video
 Videó a távírányító működéséről mint kontroller egy játékon: https://www.youtube.com/watch?v=NW0g37EYU4g 
 
+## Játék koncepció 
+2021.04.18 https://ibb.co/bXcghVY 
