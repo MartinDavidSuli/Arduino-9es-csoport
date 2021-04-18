@@ -8,4 +8,4 @@ Martin Dávid
 Videó a távírányító működéséről mint kontroller egy játékon: https://www.youtube.com/watch?v=NW0g37EYU4g 
 
 ## Játék koncepció 
-2021.04.18 https://ibb.co/bXcghVY 
+2021.04.18 https://ibb.co/bXcghVY kék kocka a játékos, sárga kockák a coin, rózsaszín az enemy amik mozognak, a cél összeszedni az összes coint és eljutni a pálya végét jelző zöld ajtóhoz 
